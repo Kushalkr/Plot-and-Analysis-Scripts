@@ -6,7 +6,7 @@
 
 import os
 
-for time in range(0,4327,180):
+for time in range(0,4400,180):
     try:
       dir = "/N/u/kkeshava/scratch/hwrf-dtc-br2/experiment_songda/vel_perturbation/exp_"+str(time).zfill(5)
       print("now in time t = " + str(time))
